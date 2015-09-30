@@ -15,7 +15,7 @@ See the [Relay API docs](https://relay.bluejeans.com/docs/mesh.html) for more de
 ## Installation
     git clone https://github.com/Aldaviva/relay-mesh-example-java.git
     cd relay-mesh-example-java
-    sh start.sh   
+    mvn compile exec:java  
 
 The web server will compile and run, listening on port `6374`. Requests will be parsed and logged.
 
